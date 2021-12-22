@@ -5,6 +5,6 @@
   "commitMessageSuffix": "[SECURITY]",
   "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
   "prCreation": "immediate",
-  "prBodyNotes": ["This PR upgrades `{{depName}}` to a version no longer depending on a version of `log4j` with a critical vulnerability. For details about this problem, read [here](https://www.whitesourcesoftware.com/resources/blog?search=log4j)."],
+  "prBodyNotes": ["This PR upgrades `{{depName}}` to avoid a critical vulnerability in `log4j`. For details about this problem, read [here](https://www.whitesourcesoftware.com/resources/blog?search=log4j)."],
   "isVulnerabilityAlert": true
 }
